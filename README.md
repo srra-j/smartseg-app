@@ -21,12 +21,14 @@ It uses clustering algorithms (like K-Means) to provide actionable insights for 
 - **Charts:** Chart.js / Plotly
 
 ---
-
+---
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 git clone https://github.com/YOUR-USERNAME/smartseg-app.git
 cd smartseg-app
+---
+---
 ### 2. Install Dependencies
 Backend:
 cd backend
@@ -34,18 +36,24 @@ pip install -r requirements.txt
 Frontend:
 cd frontend
 npm install
-### Run the App
+---
+---
+### 3. Run the App
 Backend:
 cd backend
 python app.py
 Frontend:
 cd frontend
 npm run dev
+---
+---
 ### 📊 How It Works
 Upload your CSV customer dataset.
 Choose the number of clusters.
 The app runs K-Means clustering on the dataset.
 View interactive plots and download the segmented data.
+---
+---
 ### Project Structure
 smartseg-app/
 │
@@ -53,3 +61,4 @@ smartseg-app/
 ├── frontend/        # React + Vite frontend
 ├── README.md        # Project documentation
 └── .gitignore       # Ignored files/folders
+---
